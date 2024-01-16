@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "coins": 100,
+            "code": "t1",
+            "name": "Brilliant planet",
+            "image": "https://i.imgur.com/RLk1g9p.png",
+            "description": "brilliant planet",
+            "iconColor": 4293914607,
+            "textcolor": 4293914607,
+            "blur": 4.0,
+            "primaryColor": 4283973327,
+            "isDarkModel": true,
+            "e1": "https://i.imgur.com/oBJ9yPv.png",
+            "e2": "https://i.imgur.com/6povbcc.png",
+            "e3": "https://i.imgur.com/RsxpSKn.png",
+            "e4": "https://i.imgur.com/dwMxYq6.png",
+            "e5": "https://i.imgur.com/7sOunOP.png",
+            "i1": "https://i.imgur.com/TNbr2nY.png",
+            "eHome": "https://i.imgur.com/AsPMrfN.png",
+            "e6": "https://i.imgur.com/3p070De.png",
+            "backgroundHome": "https://i.imgur.com/XlWf4Ri.png",
+            "textHeaderCalendar": 4294695679,
+            "backgroundEdit": null,
+            "blockBackgroundEdit": 1308622847,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 1308622847,
+            "category": [
+                "sang",
+                "toi",
+                "su_kien"
+            ]
+        }
+    ]
+}
