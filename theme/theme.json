@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "coins": 100,
+            "coins": 300,
             "code": "t1",
             "name": "Brilliant planet",
             "image": "https://i.imgur.com/RLk1g9p.png",
@@ -25,6 +25,37 @@
             "blockBackgroundEdit": 1308622847,
             "backgroundDetail": null,
             "blockBackgroundDetail": 1308622847,
+            "category": [
+                "sang",
+                "toi",
+                "su_kien"
+            ]
+        },
+        {
+            "coins": 100,
+            "code": "t2",
+            "name": "Kawaii Summer",
+            "image": "https://i.imgur.com/Pq8gSki.png",
+            "description": "",
+            "iconColor": 4284689184,
+            "textcolor": 4284689184,
+            "blur": null,
+            "primaryColor": 4284689184,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/zsdpjTo.png",
+            "e2": "https://i.imgur.com/YbGGdml.png",
+            "e3": "https://i.imgur.com/4xNl8EC.png",
+            "e4": "https://i.imgur.com/sBmL2jS.png",
+            "e5": "https://i.imgur.com/IbUnJ7j.png",
+            "i1": "https://i.imgur.com/DGABCk0.png",
+            "eHome": "https://i.imgur.com/32GbtMR.png",
+            "e6": "https://i.imgur.com/MuBdSFs.png",
+            "backgroundHome": "https://i.imgur.com/jlZEdmK.png",
+            "textHeaderCalendar": 4284689184,
+            "backgroundEdit": null,
+            "blockBackgroundEdit": 4294967295,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 4294967295,
             "category": [
                 "sang",
                 "toi",
