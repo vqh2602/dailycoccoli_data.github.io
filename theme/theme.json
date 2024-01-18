@@ -61,6 +61,37 @@
                 "toi",
                 "su_kien"
             ]
+        },
+        {
+            "coins": 700,
+            "code": "t3",
+            "name": "Kawaii Sushi",
+            "image": "https://i.imgur.com/ZbfQ3Nm.png",
+            "description": "",
+            "iconColor": 4284689184,
+            "textcolor": 4284689184,
+            "blur": 3.0,
+            "primaryColor": 4284689184,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/rZ3LBHv.png",
+            "e2": "https://i.imgur.com/cSp4Awe.png",
+            "e3": "https://i.imgur.com/waiscz0.png",
+            "e4": "https://i.imgur.com/awfQdmY.png",
+            "e5": "https://i.imgur.com/S969r9i.png",
+            "i1": "https://i.imgur.com/vSYdrWN.png",
+            "eHome": "https://i.imgur.com/xrcMXMe.png",
+            "e6": "https://i.imgur.com/D2miyhQ.png",
+            "backgroundHome": "https://i.imgur.com/Em99wZ7.png",
+            "textHeaderCalendar": 4284689184,
+            "backgroundEdit": "https://i.imgur.com/wnInmoB.png",
+            "blockBackgroundEdit": 4294967295,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": null,
+            "category": [
+                "sang",
+                "toi",
+                "su_kien"
+            ]
         }
     ]
 }
