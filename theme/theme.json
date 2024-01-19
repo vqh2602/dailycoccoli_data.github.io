@@ -85,7 +85,7 @@
             "textHeaderCalendar": 4284689184,
             "backgroundEdit": "https://i.imgur.com/wnInmoB.png",
             "blockBackgroundEdit": 4294967295,
-            "backgroundDetail": null,
+            "backgroundDetail": 4294967295,
             "blockBackgroundDetail": null,
             "category": [
                 "sang",
