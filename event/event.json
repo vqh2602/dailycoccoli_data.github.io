@@ -1,21 +1,25 @@
 {
-    "eventdata": [
+    "data": [
         {
-            "local": "vi",
-            "description": "Từ ngày 01-12-2023 đến 30-05-2024, đánh giá 5 sao ứng dụng trên googleplay , appstore sẽ có cơ hội nhận các phần quà sau: 5000 catcoins + x1.5 số catcoins hiện tại, 10000 catcoins + x2 số catcoins hiện tại",
-            "title": "Sự kiện nhận x2 catcoins",
-            "image": "https://i.imgur.com/DgB0B8A.png"
-        },
-        {
-            "local": "en",
-            "description": "From December 1, 2023 to May 30, 2024, rate the app 5 stars on googleplay, appstore will have the opportunity to receive the following gifts: 5000 catcoins + x1.5 current number of catcoins, 10000 catcoins + x2 number current catcoins",
-            "title": "Event to receive x2 catcoins",
-            "image": "https://i.imgur.com/GhRVOiB.png"
+            "eventdata": [
+                {
+                    "local": "vi",
+                    "description": "Từ ngày 01-12-2023 đến 30-05-2024, đánh giá 5 sao ứng dụng trên googleplay , appstore sẽ có cơ hội nhận các phần quà sau: 5000 catcoins + x1.5 số catcoins hiện tại, 10000 catcoins + x2 số catcoins hiện tại",
+                    "title": "Sự kiện nhận x2 catcoins",
+                    "image": "https://i.imgur.com/DgB0B8A.png"
+                },
+                {
+                    "local": "en",
+                    "description": "From December 1, 2023 to May 30, 2024, rate the app 5 stars on googleplay, appstore will have the opportunity to receive the following gifts: 5000 catcoins + x1.5 current number of catcoins, 10000 catcoins + x2 number current catcoins",
+                    "title": "Event to receive x2 catcoins",
+                    "image": "https://i.imgur.com/GhRVOiB.png"
+                }
+            ],
+            "start": "2023-12-01",
+            "end": "2024-05-30",
+            "create": "2020-11-01",
+            "version": "1.0.0",
+            "link": "https://meowassistant.blogspot.com/p/nhan-10000-catcoin.html"
         }
-    ],
-    "start": "2023-12-01",
-    "end": "2024-05-30",
-    "create": "2020-11-01",
-    "version": "1.0.0",
-    "link": "https://meowassistant.blogspot.com/p/nhan-10000-catcoin.html"
+    ]
 }
