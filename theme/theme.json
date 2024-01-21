@@ -26,9 +26,8 @@
             "backgroundDetail": null,
             "blockBackgroundDetail": 1308622847,
             "category": [
-                "sang",
-                "toi",
-                "su_kien"
+                "Toi",
+                "ThienNhien"
             ]
         },
         {
@@ -57,9 +56,8 @@
             "backgroundDetail": null,
             "blockBackgroundDetail": 4294967295,
             "category": [
-                "sang",
-                "toi",
-                "su_kien"
+                "Sang",
+                "CuocSong"
             ]
         },
         {
@@ -88,9 +86,8 @@
             "backgroundDetail": null,
             "blockBackgroundDetail": 4294967295,
             "category": [
-                "sang",
-                "toi",
-                "su_kien"
+                "Sang",
+                "CuocSong"
             ]
         }
     ]
