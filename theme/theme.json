@@ -89,6 +89,33 @@
                 "Sang",
                 "CuocSong"
             ]
+        },
+        {
+            "coins": 10000,
+            "code": "t4",
+            "name": "Star Platinum",
+            "image": "https://i.imgur.com/JXy0F70.jpeg",
+            "description": "",
+            "category": null,
+            "iconColor": 4294698925,
+            "textcolor": 4294698925,
+            "blur": 3.0,
+            "primaryColor": 4284689184,
+            "isDarkModel": true,
+            "e1": "https://i.imgur.com/87Tl3CZ.png",
+            "e2": "https://i.imgur.com/FKlX4u8.png",
+            "e3": "https://i.imgur.com/YQhrmsk.png",
+            "e4": "https://i.imgur.com/nCrpvxe.png",
+            "e5": "https://i.imgur.com/RELutZY.png",
+            "i1": "https://i.imgur.com/nxbpLIB.png",
+            "eHome": "https://i.imgur.com/Q4jPskI.png",
+            "e6": "https://i.imgur.com/CmxJAvJ.png",
+            "backgroundHome": "https://i.imgur.com/9PBHlql.png",
+            "textHeaderCalendar": 4294698925,
+            "backgroundEdit": null,
+            "blockBackgroundEdit": null,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 872415231
         }
     ]
 }
