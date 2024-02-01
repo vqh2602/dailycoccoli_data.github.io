@@ -96,7 +96,6 @@
             "name": "Star Platinum",
             "image": "https://i.imgur.com/JXy0F70.jpeg",
             "description": "",
-            "category": null,
             "iconColor": 4294698925,
             "textcolor": 4294698925,
             "blur": 3.0,
@@ -115,7 +114,11 @@
             "backgroundEdit": null,
             "blockBackgroundEdit": null,
             "backgroundDetail": null,
-            "blockBackgroundDetail": 872415231
+            "blockBackgroundDetail": 872415231,
+            "category": [
+                "Toi",
+                "ThienNhien"
+            ]
         }
     ]
 }
