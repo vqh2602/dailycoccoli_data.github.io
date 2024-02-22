@@ -119,6 +119,36 @@
                 "Toi",
                 "ThienNhien"
             ]
+        },
+        {
+            "coins": 700,
+            "code": "t5",
+            "name": "Halloween Pumpkin",
+            "image": "https://i.imgur.com/YnvfvEo.jpeg",
+            "description": "",
+            "iconColor": 4293450877,
+            "textcolor": 4293450877,
+            "blur": 3.0,
+            "primaryColor": 4280288328,
+            "isDarkModel": true,
+            "e1": "https://i.imgur.com/XkZiYcy.png",
+            "e2": "https://i.imgur.com/x4E34l1.png",
+            "e3": "https://i.imgur.com/e1QrMkO.png",
+            "e4": "https://i.imgur.com/YpXjbQI.png",
+            "e5": "https://i.imgur.com/wjg8l3Y.png",
+            "i1": "https://i.imgur.com/G3ghCsI.png",
+            "eHome": "https://i.imgur.com/5CKiVqR.png",
+            "e6": "https://i.imgur.com/9HUfINb.png",
+            "backgroundHome": "https://i.imgur.com/6Zgn08h.jpeg",
+            "textHeaderCalendar": 4293450877,
+            "backgroundEdit": null,
+            "blockBackgroundEdit": 872415231,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 872415231,
+            "category": [
+                "Toi",
+                "CuocSong"
+            ]
         }
     ]
 }
