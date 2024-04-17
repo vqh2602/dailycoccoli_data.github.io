@@ -149,6 +149,37 @@
                 "Toi",
                 "CuocSong"
             ]
+        },
+        {
+            "coins": 50,
+            "code": "t6",
+            "name": "Natural Emotions",
+            "image": "https://i.imgur.com/YnvfvEo.jpeg",
+            "description": "",
+            "iconColor": 4278857994,
+            "textcolor": 4278857994,
+            "blur": 3.0,
+            "primaryColor": 4280288328,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/78Rd9oU.png",
+            "e2": "https://i.imgur.com/NsyVAg3.png",
+            "e3": "https://i.imgur.com/s6h5IpT.png",
+            "e4": "https://i.imgur.com/wutz73f.png",
+            "e5": "https://i.imgur.com/opbPgly.png",
+            "i1": "https://i.imgur.com/TFUWiT7.png",
+            "eHome": "https://i.imgur.com/NsyVAg3.png",
+            "e6": "https://i.imgur.com/TsrMFmr.png",
+            "backgroundHome": "https://i.imgur.com/tpnzYOe.png",
+            "textHeaderCalendar": 4278857994,
+            "backgroundEdit": null,
+            "blockBackgroundEdit": 872415231,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 872415231,
+            "category": [
+                "Sang",
+                "CuocSong",
+                "ThienNhien"
+            ]
         }
     ]
 }
