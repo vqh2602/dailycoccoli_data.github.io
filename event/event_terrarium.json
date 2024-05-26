@@ -1,27 +1,28 @@
 {
     "data": [
-        {
-            "eventdata": [
-                {
-                    "local": "vi",
-                    "description": "Tham gia sự kiện bình chọn để có cơ hội nhận 100 vé sự kiện",
-                    "title": "Sự kiện nhận vé sự kiện",
-                    "image": "https://i.imgur.com/DgB0B8A.png"
-                },
-                {
-                    "local": "en",
-                    "description": "From December 1, 2023 to May 30, 2024, rate the app 5 stars on googleplay, appstore will have the opportunity to receive the following gifts: 5000 catcoins + x1.5 current number of catcoins, 10000 catcoins + x2 number current catcoins",
-                    "title": "Event to receive x2 catcoins",
-                    "image": "https://i.imgur.com/GhRVOiB.png"
-                }
-            ],
-            "start": "2024-05-05",
-            "end": "2024-12-30",
-            "create": "2020-11-01",
-            "version": "1.0.0",
-            "link": ""
-        }
+
 
     ]
 }
 
+ // {
+        //     "eventdata": [
+        //         {
+        //             "local": "vi",
+        //             "description": "Tham gia sự kiện bình chọn để có cơ hội nhận 100 vé sự kiện",
+        //             "title": "Sự kiện nhận vé sự kiện",
+        //             "image": "https://i.imgur.com/DgB0B8A.png"
+        //         },
+        //         {
+        //             "local": "en",
+        //             "description": "From December 1, 2023 to May 30, 2024, rate the app 5 stars on googleplay, appstore will have the opportunity to receive the following gifts: 5000 catcoins + x1.5 current number of catcoins, 10000 catcoins + x2 number current catcoins",
+        //             "title": "Event to receive x2 catcoins",
+        //             "image": "https://i.imgur.com/GhRVOiB.png"
+        //         }
+        //     ],
+        //     "start": "2024-05-05",
+        //     "end": "2024-12-30",
+        //     "create": "2020-11-01",
+        //     "version": "1.0.0",
+        //     "link": ""
+        // }
