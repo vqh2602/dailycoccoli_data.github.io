@@ -48,20 +48,20 @@
                     "local": "en",
                     "description": "When you have 20 balcony floors, you will immediately receive the super cool badge",
                     "title": "Get a badge when unlocking the balcony floor",
-                    "image": "https://i.imgur.com/4y10Hcs.png"
+                    "image": "https://i.imgur.com/pe3Wul3.png"
                 },
                 {
                     "local": "vi",
                     "description": "Khi có 20 tầng ban công, nhận ngay huy hiệu siêu đỉnh",
                     "title": "Nhận huy hiệu khi mở khóa tầng ban công",
-                    "image": "https://i.imgur.com/4y10Hcs.png"
+                    "image": "https://i.imgur.com/pe3Wul3.png"
                 }
             ],
             "start": "2024-08-08",
             "end": "20100-12-30",
             "create": "2020-11-01",
             "version": "1.0.0",
-            "link": "clam-flood"
+            "link": "clam-floor"
         }
     ]
 }
