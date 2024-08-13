@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6781">
+    <link rel="stylesheet" type="text/css" href="style.css?4229">
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css?4501">
+    <link rel="stylesheet" type="text/css" href="./css/all.min.css">
+
+    <title>Home</title>
+
+</head>
+<body>
+
+<!-- Main container -->
+<div class="page-container">
+    
+    <!-- bloc-0 -->
+    <div class="bloc bloc-fill-screen bg-2c11594ea7d9c81df166b9f2dee6a372 d-bloc" id="bloc-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center col-md-7 offset-md-5 offset-lg-0 text-lg-start">
+                    <h1 class="mg-md text-center text-md-start threeD-t">
+                        Receive promotion badge<br>
+                    </h1>
+                    <h3 class="mg-md float-none text-center text-md-start btn-resize-mode h3-style">
+                        Receive a level up badge when your character level reaches 50<br>
+                    </h3>
+                    <div class="text-center d-block text-lg-start text-md-start">
+                        <a  class="btn btn-lg btn-wire">Get</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bloc-0 END -->
+</div>
+<!-- Main container END -->
+
+<!-- Additional JS -->
+<script src="./js/bootstrap.bundle.min.js?1629"></script>
+<script src="./js/blocs.min.js?6656"></script>
+<script src="./js/lazysizes.min.js" defer></script>
+
+<!-- Custom JS -->
+<script>
+// Đặt các hàm JavaScript ở đây
+function getQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    const userLevel = parseInt(params.get('userLevel'));
+    const userId = params.get('userId');
+    const bagId = params.get('bagId').split(',');
+
+    return {
+        userLevel: userLevel,
+        userId: userId,
+        bagId: bagId
+    };
+}
+
+function checkConditions() {
+    const params = getQueryParams();
+
+    if (params.userLevel >= 50 && !params.bagId.includes('4')) {
+        return true;
+    }
+    return false;
+}
+
+document.querySelector('.btn-wire').addEventListener('click', function(event) {
+    event.preventDefault();
+    const result = checkConditions();
+  
+
+    if (result) {
+    	   window.flutter_inappwebview.callHandler('event_get_bag_level', 'true');
+        alert("Congratulations on your new badge. Please go to your account page to update your badge!");
+    } else {
+    	   window.flutter_inappwebview.callHandler('event_get_bag_level', 'false');
+        alert("The conditions are not met or you already own this badge");
+    }
+});
+</script>
+</body>
+</html>
