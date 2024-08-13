@@ -51,7 +51,8 @@
 
         function checkConditions() {
             const params = getQueryParams();
-            print(params);
+            // Sử dụng console.log thay vì print
+            console.log(params);
             if (params.userFloor >= 20 && !params.bagId.includes('bag3')) {
                 return true;
             }
