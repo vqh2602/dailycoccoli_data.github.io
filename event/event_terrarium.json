@@ -1,28 +1,67 @@
 {
     "data": [
-
-{
+        {
             "eventdata": [
                 {
                     "local": "en",
                     "description": "To avoid inappropriate names, we have temporarily suspended the account renaming feature",
                     "title": "Support renaming accounts",
                     "image": "https://i.imgur.com/gE48ALO.png"
-                }, {
+                },
+                {
                     "local": "vi",
                     "description": "Để tránh các tên không phù hợp, nên chúng tôi tạm thời ngưng tính năng đổi tên tài khoản",
                     "title": "Hỗ trợ đổi tên tài khoản",
                     "image": "https://i.imgur.com/gE48ALO.png"
                 }
-               
             ],
             "start": "2024-05-05",
             "end": "20100-12-30",
             "create": "2020-11-01",
             "version": "1.0.0",
             "link": "https://www.vqhapp.name.vn/p/ho-tro-tai-khoan-terrarium-idle.html"
+        },
+        {
+            "eventdata": [
+                {
+                    "local": "en",
+                    "description": "Receive a level up badge when your character level reaches 50",
+                    "title": "Receive promotion badge",
+                    "image": "https://i.imgur.com/4y10Hcs.png"
+                },
+                {
+                    "local": "vi",
+                    "description": "Nhận huy hiệu thăng cấp khi cấp độ nhân vật đạt 50",
+                    "title": "Nhận huy hiệu thăng cấp",
+                    "image": "https://i.imgur.com/4y10Hcs.png"
+                }
+            ],
+            "start": "2024-08-08",
+            "end": "20100-12-30",
+            "create": "2020-11-01",
+            "version": "1.0.0",
+            "link": "clam-level-up"
+        },
+        {
+            "eventdata": [
+                {
+                    "local": "en",
+                    "description": "When you have 20 balcony floors, you will immediately receive the super cool badge",
+                    "title": "Get a badge when unlocking the balcony floor",
+                    "image": "https://i.imgur.com/4y10Hcs.png"
+                },
+                {
+                    "local": "vi",
+                    "description": "Khi có 20 tầng ban công, nhận ngay huy hiệu siêu đỉnh",
+                    "title": "Nhận huy hiệu khi mở khóa tầng ban công",
+                    "image": "https://i.imgur.com/4y10Hcs.png"
+                }
+            ],
+            "start": "2024-08-08",
+            "end": "20100-12-30",
+            "create": "2020-11-01",
+            "version": "1.0.0",
+            "link": "clam-flood"
         }
     ]
 }
-
- 

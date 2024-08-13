@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - ưvent_flood</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <header class="masthead" style="background-image: url('assets/img/0bbfd4dd07508836544d855cd3b462eb.jpg');">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading"><span style="font-weight: normal !important;">Get badge</span></h1>
+                        <p class="intro-text">Get the super cool badge immediately when the balcony floor is expanded to 20 floors</p><a class="btn btn-link btn-circle btn-wire" role="button" ><i class="far fa-kiss-wink-heart jello animated infinite"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    
+    
+<!-- Custom JS -->
+<script>
+// Đặt các hàm JavaScript ở đây
+function getQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    const userFloor= parseInt(params.get('userFloor'));
+    const userId = params.get('userId');
+    const bagId = params.get('bagId').split(',');
+
+    return {
+        userLevel: userFloor,
+        userId: userId,
+        bagId: bagId
+    };
+}
+
+function checkConditions() {
+    const params = getQueryParams();
+
+    if (params.userFloor >= 20 && !params.bagId.includes('bag3')) {
+        return true;
+    }
+    return false;
+}
+
+document.querySelector('.btn-wire').addEventListener('click', function(event) {
+    event.preventDefault();
+    const result = checkConditions();
+  
+
+    if (result) {
+    	   window.flutter_inappwebview.callHandler('event_get_bag_floor', 'true');
+        alert("Congratulations on your new badge. Please go to your account page to update your badge!");
+    } else {
+    	   window.flutter_inappwebview.callHandler('event_get_bag_floor', 'false');
+        alert("The conditions are not met or you already own this badge");
+    }
+});
+</script>
+</body>
+
+</html>
