@@ -225,9 +225,9 @@ function checkPrize (result, fulldata) {
   var pots = urlParams.get('pots').split(',')
 
   if (plants.includes(result)) {
-    alert(`Bạn đã trúng phần thưởng thuộc danh sách plants: ${result}`)
+    alert(`Bạn đã trúng phần thưởng thuộc danh sách`)
   } else if (pots.includes(result)) {
-    alert(`Bạn đã trúng phần thưởng thuộc danh sách pots: ${result}`)
+    alert(`Bạn đã trúng phần thưởng thuộc danh sách`)
   } else {
     window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   }
