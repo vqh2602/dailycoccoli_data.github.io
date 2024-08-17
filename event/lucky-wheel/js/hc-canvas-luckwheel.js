@@ -225,9 +225,9 @@ function checkPrize (result, fulldata) {
   var pots = urlParams.get('pots').split(',')
 
   if (plants.includes(result)) {
-    Swal.fire('Bạn đã trúng cây ' + result)
+    Swal.fire('Already own this item')
   } else if (pots.includes(result)) {
-    Swal.fire('Đã trúng ' + result)
+    Swal.fire('Already own this item')
   } else {
     window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   }
