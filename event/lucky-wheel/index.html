@@ -88,7 +88,7 @@
         quantity: 50,
         number: 50000,
         percentpage: 0.5 // 60%
-      },
+      }
 
     ];
     document.addEventListener(
@@ -147,21 +147,28 @@
         let prizeIndex = null;
         console.log(rand);
         switch (true) {
-          case rand < prizes[4].percentpage:
-            prizeIndex = 4;
-            break;
-          case rand < prizes[4].percentpage + prizes[3].percentpage:
-            prizeIndex = 3;
-            break;
-          case rand < prizes[4].percentpage + prizes[3].percentpage + prizes[2].percentpage:
-            prizeIndex = 2;
-            break;
-          case rand < prizes[4].percentpage + prizes[3].percentpage + prizes[2].percentpage + prizes[1].percentpage:
-            prizeIndex = 1;
-            break;
-          case rand < prizes[4].percentpage + prizes[3].percentpage + prizes[2].percentpage + prizes[1].percentpage + prizes[0].percentpage:
+          case rand <= prizes[0].percentpage:
             prizeIndex = 0;
             break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage:
+            prizeIndex = 1;
+            break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage:
+            prizeIndex = 2;
+            break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage:
+            prizeIndex = 3;
+            break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage:
+            prizeIndex = 4;
+            break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage + prizes[5].percentpage:
+            prizeIndex = 5;
+            break;
+          case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage + prizes[5].percentpage + prizes[6].percentpage:
+            prizeIndex = 6;
+            break;
+
         }
         if (prizes[prizeIndex].number != 0) {
           prizes[prizeIndex].number = prizes[prizeIndex].number - 1
