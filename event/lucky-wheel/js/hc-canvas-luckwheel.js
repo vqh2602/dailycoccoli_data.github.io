@@ -1,3 +1,5 @@
+var oxygen = parseInt(urlParams.get('oxygen'), 10) || 0
+
 ;(function () {
   var $,
     ele,
@@ -134,7 +136,6 @@
   function events () {
     bind(btn, 'click', function () {
       var urlParams = new URLSearchParams(window.location.search)
-      var oxygen = parseInt(urlParams.get('oxygen'), 10) || 0
 
       if (oxygen < 100) {
         Swal.fire('Not enough oxygen to spin!')
