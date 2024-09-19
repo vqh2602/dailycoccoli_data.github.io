@@ -227,6 +227,7 @@ function checkPrize (result, fulldata) {
 
   if (plants.includes(result)) {
     Swal.fire('Already own this item')
+    //  window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   } else if (pots.includes(result)) {
     Swal.fire('Already own this item')
   } else {
