@@ -180,6 +180,36 @@
                 "CuocSong",
                 "ThienNhien"
             ]
+        },
+        {
+            "coins": 500,
+            "code": "t7",
+            "name": "Meow Gold",
+            "image": "https://i.imgur.com/0jk0ua2.png",
+            "description": "",
+            "iconColor": 4286459166,
+            "textcolor": 4286459166,
+            "blur": 3.0,
+            "primaryColor": 4294766017,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/ZSEZlG6.png",
+            "e2": "https://i.imgur.com/5uh5p17.png",
+            "e3": "https://i.imgur.com/WnSQhf6.png",
+            "e4": "https://i.imgur.com/NtPZiua.png",
+            "e5": "https://i.imgur.com/rEt8CEL.png",
+            "i1": "https://i.imgur.com/PM7A23a.png",
+            "eHome": "https://i.imgur.com/1hQKaXu.png",
+            "e6": "https://i.imgur.com/0jk0ua2.png",
+            "backgroundHome": "https://i.imgur.com/N0MK1FA.png",
+            "textHeaderCalendar": 4286459166,
+            "backgroundEdit": "https://i.imgur.com/N0MK1FA.png",
+            "blockBackgroundEdit": 872415231,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 872415231,
+            "category": [
+                "Sang",
+                "ThienNhien"
+            ]
         }
     ]
 }
