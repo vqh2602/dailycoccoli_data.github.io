@@ -210,6 +210,36 @@
                 "Sang",
                 "ThienNhien"
             ]
+        },
+        {
+            "coins": 350,
+            "code": "t8",
+            "name": "Doodle Pen",
+            "image": "https://i.imgur.com/PNgX6hG.png",
+            "description": "",
+            "category": [
+                "Sang",
+                "CuocSong"
+            ],
+            "iconColor": 4278190080,
+            "textcolor": 4278190080,
+            "blur": 3.0,
+            "primaryColor": 4294766017,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/eoWscGK.png",
+            "e2": "https://i.imgur.com/L0dSnAW.png",
+            "e3": "https://i.imgur.com/NLV8w59.png",
+            "e4": "https://i.imgur.com/BCSGXmc.png",
+            "e5": "https://i.imgur.com/KHh2DTW.png",
+            "i1": "https://i.imgur.com/SqwMrmf.png",
+            "eHome": "https://i.imgur.com/cpLvMWQ.png",
+            "e6": "https://i.imgur.com/jmXfg1f.png",
+            "backgroundHome": "https://i.imgur.com/h5g7MY7.png",
+            "textHeaderCalendar": 4278190080,
+            "backgroundEdit": "https://i.imgur.com/h5g7MY7.png",
+            "blockBackgroundEdit": 4294967295,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": 4294967295
         }
     ]
 }
