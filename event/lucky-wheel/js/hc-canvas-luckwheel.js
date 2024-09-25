@@ -226,11 +226,13 @@ function checkPrize (result, fulldata) {
   var pots = urlParams.get('pots').split(',')
 
   if (plants.includes(result)) {
-    Swal.fire('Already own this item')
+    Swal.fire('Already own this item', fulldata, 'success')
     //  window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   } else if (pots.includes(result)) {
-    Swal.fire('Already own this item')
+    Swal.fire('Already own this item', fulldata, 'success')
   } else {
     window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
+    Swal.fire('CONGRATULATIONS!', data.text, 'success')
+
   }
 }
