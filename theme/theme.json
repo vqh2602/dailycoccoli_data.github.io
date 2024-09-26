@@ -240,6 +240,37 @@
             "blockBackgroundEdit": 4294967295,
             "backgroundDetail": null,
             "blockBackgroundDetail": 4294967295
+        },
+        {
+            "coins": 370,
+            "code": "t9",
+            "name": "Green Slime",
+            "image": "https://i.imgur.com/lMnNEv2.png",
+            "description": "",
+            "category": [
+                "Sang",
+                "CuocSong",
+                "ThienNhien"
+            ],
+            "iconColor": 4282155631,
+            "textcolor": 4282155631,
+            "blur": 3.0,
+            "primaryColor": 4282155631,
+            "isDarkModel": false,
+            "e1": "https://i.imgur.com/0C0rj6N.png",
+            "e2": "https://i.imgur.com/kdIg3MK.png",
+            "e3": "https://i.imgur.com/ymFg7S8.png",
+            "e4": "https://i.imgur.com/iivciXh.png",
+            "e5": "https://i.imgur.com/7RcCP3h.png",
+            "i1": "https://i.imgur.com/q852vXy.png",
+            "eHome": "https://i.imgur.com/doFtmBj.png",
+            "e6": "https://i.imgur.com/0mHKSXJ.png",
+            "backgroundHome": "https://i.imgur.com/adgOKWr.png",
+            "textHeaderCalendar": 4282155631,
+            "backgroundEdit": "https://i.imgur.com/adgOKWr.png",
+            "blockBackgroundEdit": 4294967295,
+            "backgroundDetail": null,
+            "blockBackgroundDetail": null
         }
     ]
 }
