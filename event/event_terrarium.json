@@ -67,13 +67,13 @@
             "eventdata": [
                 {
                     "local": "en",
-                    "description": "Collect oxygen diligently to receive super attractive gifts (requires application version 1.1.7 or higher)",
+                    "description": "Collect oxygen diligently to receive super attractive gifts (requires application version 1.0.7 or higher)",
                     "title": "Announcement of oxygen collection leaderboard feature update",
                     "image": "https://i.imgur.com/B9PKV58.png"
                 },
                 {
                     "local": "vi",
-                    "description": "Chăm chỉ thu thập oxygen để nhận các phần quà siêu hấp dẫn ( yêu cầu phiên bản ứng dụng 1.1.7 trở lên)",
+                    "description": "Chăm chỉ thu thập oxygen để nhận các phần quà siêu hấp dẫn ( yêu cầu phiên bản ứng dụng 1.0.7 trở lên)",
                     "title": "Thông báo cập nhật tính năng bảng xếp hạng thu thập oxy",
                     "image": "https://i.imgur.com/B9PKV58.png"
                 }
