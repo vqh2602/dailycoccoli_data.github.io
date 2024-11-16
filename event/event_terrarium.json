@@ -67,6 +67,27 @@
             "eventdata": [
                 {
                     "local": "en",
+                    "description": "Collect oxygen diligently to receive super attractive gifts (requires application version 1.1.7 or higher)",
+                    "title": "Announcement of oxygen collection leaderboard feature update",
+                    "image": "https://i.imgur.com/B9PKV58.png"
+                },
+                {
+                    "local": "vi",
+                    "description": "Chăm chỉ thu thập oxygen để nhận các phần quà siêu hấp dẫn ( yêu cầu phiên bản ứng dụng 1.1.7 trở lên)",
+                    "title": "Thông báo cập nhật tính năng bảng xếp hạng thu thập oxy",
+                    "image": "https://i.imgur.com/B9PKV58.png"
+                }
+            ],
+            "start": "2024-08-08",
+            "end": "2030-12-31",
+            "create": "2020-11-01",
+            "version": "1.0.0",
+            "link": "https://www.vqhapp.name.vn/p/event-top-oxygen.html"
+        },
+        {
+            "eventdata": [
+                {
+                    "local": "en",
                     "description": "Join the oxygen spin to receive lavender, jade pots, tickets, and hundreds of other gifts. Each spin will deduct 100 oxygen",
                     "title": "Receive special plants - Lavender Festival (2024)",
                     "image": "https://i.imgur.com/pemp5du.gif"
