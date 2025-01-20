@@ -88,6 +88,27 @@
             "eventdata": [
                 {
                     "local": "en",
+                    "description": "Earn oxygen to get limited plants, limited pots, large amounts of oxygen, and tickets",
+                    "title": "Collection event receives limit tree",
+                    "image": "https://i.imgur.com/at5X19r.png"
+                },
+                {
+                    "local": "vi",
+                    "description": "Thu nhập oxygen để có thể nhận được cây giới hạn, chậu giới hạn, và lượng lớn oxygen, và ticket",
+                    "title": "Sự kiện thu thập nhận cây giới hạn",
+                    "image": "https://i.imgur.com/at5X19r.png"
+                }
+            ],
+            "start": "2025-01-20",
+            "end": "2025-1-31",
+            "create": "2020-11-01",
+            "version": "1.0.0",
+            "link": "https://www.vqhapp.name.vn/p/event-top-oxygen.html"
+        },
+        {
+            "eventdata": [
+                {
+                    "local": "en",
                     "description": "Join the oxygen spin to receive white lotus flowers, jade pots, tickets, and hundreds of other gifts! Each spin will deduct 100 oxygen",
                     "title": "Lunar New Year EVENTS (2025)",
                     "image": "https://i.imgur.com/p8v86pZ.png"
