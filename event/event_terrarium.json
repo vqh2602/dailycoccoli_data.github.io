@@ -88,19 +88,19 @@
             "eventdata": [
                 {
                     "local": "en",
-                    "description": "Join the oxygen spin to receive lavender, jade pots, tickets, and hundreds of other gifts. Each spin will deduct 100 oxygen",
-                    "title": "Receive special plants - Lavender Festival (2024)",
-                    "image": "https://i.imgur.com/pemp5du.gif"
+                    "description": "Join the oxygen spin to receive white lotus flowers, jade pots, tickets, and hundreds of other gifts! Each spin will deduct 100 oxygen",
+                    "title": "Lunar New Year EVENTS (2024)",
+                    "image": "https://i.imgur.com/pbdPKaa.png"
                 },
                 {
                     "local": "vi",
-                    "description": "Tham gia vòng quay bằng oxygen để nhận hoa oải hương, chậu đá ngọc, ticket, và hàng trăm phần quà khác nhé! mỗi lượt quay sẽ trừ 100 oxygen",
-                    "title": "Nhận cây đặc biệt - Ngày hội hoa oải hương (2024)",
-                    "image": "https://i.imgur.com/pemp5du.gif"
+                    "description": "Tham gia vòng quay bằng oxygen để nhận hoa sen trắng, chậu đá ngọc, ticket, và hàng trăm phần quà khác nhé! mỗi lượt quay sẽ trừ 100 oxygen",
+                    "title": "Lunar New Year EVENTS (2024)",
+                    "image": "https://i.imgur.com/pbdPKaa.png"
                 }
             ],
-            "start": "2024-08-08",
-            "end": "2024-12-31",
+            "start": "2025-01-01",
+            "end": "2025-3-31",
             "create": "2020-11-01",
             "version": "1.0.0",
             "link": "clam-lavender-plant"
