@@ -229,20 +229,20 @@ function checkPrize (result, fulldata) {
   if (plants.includes(result)) {
     Swal.fire(
       'Already own this item',
-      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      // typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
       'success'
     )
     //  window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   } else if (pots.includes(result)) {
     Swal.fire(
       'Already own this item',
-      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      // typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
       'success'
     )
   } else if (bags.includes(result)) {
     Swal.fire(
       'Already own this item',
-      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      // typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
       'success'
     )
   } else {

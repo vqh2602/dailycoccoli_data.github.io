@@ -57,6 +57,7 @@
   <script>
     var isPercentage = true;
     var prizes = [
+      //1
       {
         text: "Peach blossom x1",
         img: "https://i.imgur.com/JrZTaDo.png",
@@ -65,6 +66,7 @@
         code: "plant24",
         percentpage: 0.01 //5%
       },
+      //2
       {
         text: "Small structure x1",
         img: "https://i.imgur.com/8ihgvVR.png",
@@ -73,6 +75,7 @@
         code: "plant26",
         percentpage: 0.05 // 10%
       },
+      //3
       {
         text: "Ticket x5",
         img: "https://i.imgur.com/z6C8jtp.png",
@@ -81,7 +84,7 @@
         code: "ticket",
         percentpage: 0.24 // 15%
       },
-
+      //4
       {
         text: "Green white leaves fly",
         code: "bag4",
@@ -90,6 +93,7 @@
         quantity: 10,
         percentpage: 0.05 // 10
       },
+      //5
       {
         text: "Hedgehog x1",
         img: "https://i.imgur.com/MYih4vP.png",
@@ -98,7 +102,7 @@
         code: "plant20",
         percentpage: 0.05 // 10%
       },
-
+      //6
       {
         text: "Shovel x1",
         img: "https://i.imgur.com/u0MBz0B.png",
@@ -107,6 +111,7 @@
         code: "shovel",
         percentpage: 0.1 // 30%
       },
+      //7
       {
         text: "Green white leaves fly",
         code: "bag4",
@@ -142,7 +147,7 @@
             } else if (data == 'Chúc bạn may mắn lần sau') {
               Swal.fire(
                 'Bạn không trúng thưởng',
-                typeof data === "string" ? data : JSON.stringify(data),
+                // typeof data === "string" ? data : JSON.stringify(data).,
                 'error'
               )
             } else {
