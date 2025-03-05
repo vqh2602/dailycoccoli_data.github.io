@@ -160,18 +160,9 @@
     );
     function randomIndex(prizes) {
       if (isPercentage) {
-        var counter = 1;
-        for (let i = 0; i < prizes.length; i++) {
-          if (prizes[i].number == 0) {
-            counter++
-          }
-        }
-        if (counter == prizes.length) {
-          return null
-        }
         let rand = Math.random();
         let prizeIndex = null;
-        console.log(rand);
+
         switch (true) {
           case rand <= prizes[0].percentpage:
             prizeIndex = 0;
@@ -194,33 +185,78 @@
           case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage + prizes[5].percentpage + prizes[6].percentpage:
             prizeIndex = 6;
             break;
+        }
 
-        }
-        if (prizes[prizeIndex].number != 0) {
-          prizes[prizeIndex].number = prizes[prizeIndex].number - 1
-          return prizeIndex
-        } else {
-          return randomIndex(prizes)
-        }
+        return prizeIndex; // Trả về index mà không trừ `number`
       } else {
-        var counter = 0;
-        for (let i = 0; i < prizes.length; i++) {
-          if (prizes[i].number == 0) {
-            counter++
-          }
-        }
-        if (counter == prizes.length) {
-          return null
-        }
-        var rand = (Math.random() * (prizes.length)) >>> 0;
-        if (prizes[rand].number != 0) {
-          prizes[rand].number = prizes[rand].number - 1
-          return rand
-        } else {
-          return randomIndex(prizes)
-        }
+        return Math.floor(Math.random() * prizes.length); // Chế độ chọn ngẫu nhiên
       }
     }
+    // function randomIndex(prizes) {
+    //   if (isPercentage) {
+    //     var counter = 1;
+    //     for (let i = 0; i < prizes.length; i++) {
+    //       if (prizes[i].number == 0) {
+    //         counter++
+    //       }
+    //     }
+    //     if (counter == prizes.length) {
+    //       return null
+    //     }
+    //     let rand = Math.random();
+    //     let prizeIndex = null;
+    //     console.log(rand);
+    //     switch (true) {
+    //       case rand <= prizes[0].percentpage:
+    //         prizeIndex = 0;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage:
+    //         prizeIndex = 1;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage:
+    //         prizeIndex = 2;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage:
+    //         prizeIndex = 3;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage:
+    //         prizeIndex = 4;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage + prizes[5].percentpage:
+    //         prizeIndex = 5;
+    //         break;
+    //       case rand <= prizes[0].percentpage + prizes[1].percentpage + prizes[2].percentpage + prizes[3].percentpage + prizes[4].percentpage + prizes[5].percentpage + prizes[6].percentpage:
+    //         prizeIndex = 6;
+    //         break;
+
+    //     }
+    //     if (prizes[prizeIndex].number != 0) {
+    //       prizes[prizeIndex].number = prizes[prizeIndex].number - 1
+    //       return prizeIndex
+    //     } else {
+    //       return randomIndex(prizes)
+    //     }
+    //   } else {
+    //     var counter = 0;
+    //     for (let i = 0; i < prizes.length; i++) {
+    //       if (prizes[i].number == 0) {
+    //         counter++
+    //       }
+    //     }
+    //     if (counter == prizes.length) {
+    //       return null
+    //     }
+    //     var rand = (Math.random() * (prizes.length)) >>> 0;
+    //     if (prizes[rand].number != 0) {
+    //       prizes[rand].number = prizes[rand].number - 1
+    //       return rand
+    //     } else {
+    //       return randomIndex(prizes)
+    //     }
+    //   }
+    // }
+
+
   </script>
 </body>
 
