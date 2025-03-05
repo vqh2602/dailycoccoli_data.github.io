@@ -140,7 +140,7 @@
             } else if (data == 'Chúc bạn may mắn lần sau') {
               Swal.fire(
                 'Bạn không trúng thưởng',
-                data,
+                typeof data === "string" ? data : JSON.stringify(data),
                 'error'
               )
             } else {

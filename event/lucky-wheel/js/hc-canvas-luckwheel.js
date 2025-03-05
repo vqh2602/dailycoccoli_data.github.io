@@ -227,12 +227,24 @@ function checkPrize (result, fulldata) {
   var bags = urlParams.get('bagId').split(',')
 
   if (plants.includes(result)) {
-    Swal.fire('Already own this item', fulldata, 'success')
+    Swal.fire(
+      'Already own this item',
+      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      'success'
+    )
     //  window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
   } else if (pots.includes(result)) {
-    Swal.fire('Already own this item', fulldata, 'success')
+    Swal.fire(
+      'Already own this item',
+      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      'success'
+    )
   } else if (bags.includes(result)) {
-    Swal.fire('Already own this item', fulldata, 'success')
+    Swal.fire(
+      'Already own this item',
+      typeof fulldata === 'string' ? fulldata : JSON.stringify(fulldata),
+      'success'
+    )
   } else {
     window.flutter_inappwebview.callHandler('clam-lavender-plant', fulldata)
     Swal.fire('CONGRATULATIONS!', data.text, 'success')
